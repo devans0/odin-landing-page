@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.header, .footer, .hero {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    max-height: 10vh;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+.hero {
+    padding: 60px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.hero .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero img {
+    height: 200px;
+    margin-left: 25px;
+}
+
+.hero .wrapper .button {
+    margin-top: 20px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    width: 75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.content .title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 75px;
+}
+
+.content .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.content .card {
+    margin-top: -25px;
+    max-width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card img {
+    max-width: 250px;
+    flex: 50%;
+}
+
+.card .text {
+    flex: 50%;
+    text-align: center;
+}
+
+.wrapper .quote {
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+
+.signup {
+    display: flex;
+}
+
+.footer {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
