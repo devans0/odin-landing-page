@@ -108,6 +108,7 @@ a:link {
 .card img {
     max-width: 250px;
     flex: 50%;
+    border-radius: 10px;
 }
 
 .card .text {
@@ -115,18 +116,57 @@ a:link {
     text-align: center;
 }
 
-.wrapper .quote {
+.testimonial {
     color: #1F2937;
     background-color: #E5E7EB;
+    opacity: 0.75;
+    padding: 50px 100px;
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 15px;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.testimonial .attribution {
+    align-self: flex-end;
+    font-weight: bold;
 }
 
 .signup {
     display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 25px 75px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin: 50px 75px;
+}
+
+.signup .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup .text {
+    display: flex;
+}
+
+.signup .button {
+    display: flex;
+    padding: 5px 50px;
+    border: solid;
+    border-color: #E5E7EB;
+    border-radius: 15px;
+
 }
 
 .footer {
     font-size: 10px;
     display: flex;
     justify-content: center;
+    padding: 25px;
 }
 
